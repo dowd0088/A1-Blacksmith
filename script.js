@@ -53,15 +53,15 @@ forgeElement.classList.remove('is-cold', 'is-warm', 'is-hot');
 if (status === 'Too cold') {
     forgeElement.classList.add('is-cold');
     forgeImageElement.src = 'assets/forge-cold.svg';
-    forgeImageElement.alt = 'Cold Forge';
+    forgeImageElement.alt = 'A stone forge with dark coals and no flames';
 } else if (status === 'Ready to forge') {
     forgeElement.classList.add('is-warm');
     forgeImageElement.src = 'assets/forge-ready.svg';
-    forgeImageElement.alt = 'Warm Forge';
+    forgeImageElement.alt = 'A stone forge with a small orange fire';
 } else if (status === 'Roaring fire') {
     forgeElement.classList.add('is-hot');
     forgeImageElement.src = 'assets/forge-roaring.svg';
-    forgeImageElement.alt = 'Hot Forge';
+    forgeImageElement.alt = 'A stone forge with tall bright flames and sparks';
 }
 
 }
